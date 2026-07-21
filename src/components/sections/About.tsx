@@ -71,7 +71,7 @@ export function About() {
                     Misión
                   </h3>
 
-                  <p className="mt-3 text-base leading-relaxed tracking-wide text-white sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                  <p className="mt-3 text-base leading-relaxed tracking-wide text-white sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
                     Brindar servicios de atención de salud e internación
                     domiciliaria de alta calidad, a través de profesionales
                     propios, tanto en modalidad presencial como virtual,
@@ -93,7 +93,7 @@ export function About() {
                     Visión
                   </h3>
 
-                  <p className="mt-3 text-base leading-relaxed tracking-wide text-white sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                  <p className="mt-3 text-base leading-relaxed tracking-wide text-white sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
                     Posicionarnos como líderes en el área de cuidados paliativos
                     oncológicos e internación domiciliaria, revolucionando la
                     atención de la salud mediante la innovación y la

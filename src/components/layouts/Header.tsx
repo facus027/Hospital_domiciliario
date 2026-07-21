@@ -42,13 +42,18 @@ export function Header() {
         >
           <a
             href="mailto:mesadeayuda@hospitaldomiciliario.com.ar"
-            className="flex items-center gap-1.5"
+            className="flex items-center gap-1.5 cursor-pointer"
           >
             mesadeayuda@hospitaldomiciliario.com.ar
             <IoIosMail size={35} />
           </a>
 
-          <a href="tel:+542613385555" className="flex items-center gap-1.5">
+          <a
+            href="https://wa.me/5492613385555?text=Hola%2C%20quisiera%20consultar%20por%20los%20servicios%20de%20Hospital%20Domiciliario."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 cursor-pointer"
+          >
             +54 0261 338 5555
             <MdPhoneInTalk size={35} />
           </a>

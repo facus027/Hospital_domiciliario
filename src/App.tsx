@@ -11,6 +11,7 @@ import { MobileFinanciers } from "./components/sections/MobileFinanciers"
 import { financierLogos } from "./data/siteData"
 import { FAQ } from "./components/sections/FAQ"
 import Footer from "./components/layouts/Footer"
+import { FloatingWhatsapp } from "./components/ui/FloatingWhatsapp"
 
 
 function App() {
@@ -65,6 +66,8 @@ function App() {
         <FAQ/>
 
         <Footer/>
+
+        <FloatingWhatsapp/>
 
       </main>
 

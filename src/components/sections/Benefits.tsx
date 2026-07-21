@@ -63,7 +63,7 @@ export function Benefits() {
                   />
                 </div>
 
-                <h3 className="text-xl font-semibold leading-tight text-hospital-dark sm:text-2xl lg:text-4xl">
+                <h3 className="text-xl font-semibold leading-tight text-hospital-dark sm:text-2xl lg:text-3xl">
                   {item.title}
                 </h3>
               </div>
