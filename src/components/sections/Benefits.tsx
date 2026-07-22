@@ -35,12 +35,15 @@ export function Benefits() {
             paliativos, atención de pacientes crónicos y programas de
             acompañamiento integral, priorizando el bienestar del paciente y la
             tranquilidad de su familia.
-            <br className="" />
+            <br />
           </p>
-            <p className="mt-4 text-base font-medium leading-relaxed text-hospital-text sm:text-lg md:text-xl lg:text-3xl">Nuestro modelo de atención combina:</p>
+
+          <p className="mt-4 text-base font-medium leading-relaxed text-hospital-text sm:text-lg md:text-xl lg:text-3xl">
+            Nuestro modelo de atención combina:
+          </p>
         </div>
 
-        <div className="mt-4 grid gap-5 sm:grid-cols-2 lg:mt-7 lg:grid-cols-4">
+        <div className="mt-4 grid gap-5 sm:grid-cols-2 lg:mt-7 xl:grid-cols-4">
           {benefits.map((item, index) => (
             <motion.article
               key={item.title}
@@ -55,7 +58,7 @@ export function Benefits() {
               }}
             >
               <div className="flex h-full flex-col items-center justify-center gap-4 py-4">
-                <div className="flex h-24 w-24 items-center justify-center rounded-2xl sm:h-28 sm:w-28 lg:h-36 lg:w-32">
+                <div className="flex h-24 w-24 items-center justify-center rounded-2xl sm:h-28 sm:w-28 lg:h-32 lg:w-28 xl:h-36 xl:w-32">
                   <img
                     src={item.icon}
                     alt={item.title}
@@ -63,7 +66,7 @@ export function Benefits() {
                   />
                 </div>
 
-                <h3 className="text-xl font-semibold leading-tight text-hospital-dark sm:text-2xl lg:text-3xl">
+                <h3 className="w-full break-words text-xl font-semibold leading-tight text-hospital-dark sm:text-2xl lg:text-2xl xl:text-3xl">
                   {item.title}
                 </h3>
               </div>

@@ -37,8 +37,10 @@ export function FloatingWhatsapp() {
       }}
       className="
         fixed
-        bottom-6
+        bottom-8
         right-6
+        lg:bottom-5
+        lg:right-3
         z-50
 
         flex
